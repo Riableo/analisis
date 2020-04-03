@@ -1,7 +1,7 @@
 # Analysis and design of algorithms
 ## Brian Riaño 
 ## Ocupation 
-- Systems engineer student **Universidad de San Buenaventura 6th semester**
+- I'm student of systems engineer of **Universidad de San Buenaventura 6th semester**
 ## Projects
 ![il_340x270 2272008589_pldo](https://user-images.githubusercontent.com/62998301/78147606-5e0a3680-73f9-11ea-992a-0a2d93860be4.jpg)
 - [**COVID-19**](ElVirusCorona)  

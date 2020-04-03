@@ -1,5 +1,5 @@
 # Analysis and design of algorithms
-## Brian Riaño
+## Brian Riaño 6th semester
 ## Ocupation
 - Systems engineer student
 ## Projects

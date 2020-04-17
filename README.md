@@ -35,13 +35,13 @@ Algoritmo que simula el resultado de una batalla de pomekons, por batallas, el b
 De acuerdo a la entrada de tres números obtenemos un resultado, si forman triangulo, si es iscoceles, equilatero, rectangulo, obtusangulo
 - [**Volley**](Ejercicios/volley.py)  
 Dependiendo el número de jugadores se evaluará los puntos de cada categoría, el número de intentos de servicios, ataques y bloqueos. Sus exitos nos darán el resultado de puntos  
-- [**Palindromo**](Ejercicios/palindromo.py)  
+- [**Palindromo**](palindromo.py)  
 El código evalua la palabra ingresada es palindromo o no, palabra que de derecha a izquierda se escribe igual  
-- [**Permutaciones**](Ejercicios/permuta.py)  
-- [**Cancion**](Ejercicios/song.py)  
-- [**Poema**](Ejercicios/poem.py)  
-- [**Invertir_numero**](Ejercicios/Taller4/src/Invertir_numero/NewClass.java)  
-- [**Num_menor**](Ejercicios/Taller4/src/Num_menor/Num_menor.java)  
-- [**Serie_fi**](Ejercicios/Taller4/src/Serie_fi/Fibonacci.java)  
-- [**Sumarreglo**](Ejercicios/Taller4/src/Sumar_arreglo/SumArreglo.java)  
-- [**Factorial**](Ejercicios/facto.py)
+- [**Permutaciones**](permuta.py)  
+- [**Cancion**](song.py)  
+- [**Poema**](poem.py)  
+- [**Invertir_numero**](Taller4/src/Invertir_numero/NewClass.java)  
+- [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  
+- [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)  
+- [**Sumarreglo**](Taller4/src/Sumar_arreglo/SumArreglo.java)  
+- [**Factorial**](facto.py)

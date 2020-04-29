@@ -1,0 +1,76 @@
+.form {
+  background-color: #aba08e;
+  border: 1px solid #ccc;
+  padding: 0 1rem;
+  margin: 1rem;
+}
+
+.sinbordefondo {
+    background-color: #706b62;
+    border: 0;
+  }
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 12px;
+  margin: 45px;
+  width: 480px;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 13px;
+  font-weight: normal;
+  padding: 8px;
+  background: #9ab1fc;
+  border-top: 4px solid #aabcfe;
+  border-bottom: 1px solid #fff;
+  color: #039;
+}
+
+td {
+  padding: 8px;
+  background: #d0dafd;
+  border-bottom: 1px solid #fff;
+  color: #669;
+  border-top: 1px solid transparent;
+}
+
+tr:hover td {
+  background: #939ec7;
+  color: #339;
+}
+
+.save{
+  background: linear-gradient(180deg, #65bce8 0%, #306485 49%, #fbde74 50%, #ff9900 100%);
+  border-radius: 4px;
+  background-size: 1px 100px;
+  transition: all .3s;
+}
+
+.save:hover{
+  background-position: 0 -50px;
+    transition: all .3s;
+}
+
+.modif{
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.modif:hover {
+  background-color: #3cb1cf;
+  color: blue;
+}
+
+.Ventas{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+}

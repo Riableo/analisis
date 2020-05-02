@@ -10,24 +10,6 @@
     border: 0;
   }
 
-  .box{
-    float: right;
-    width: 200px;
-    height: 200px;
-    background: #CCC;
-    overflow: hidden;
-  }
-
-  .box img{
-    width: 100%;
-    height: auto;
-  }
-  @supports(object-fit: cover){
-      .box img{
-        height: 100%;
-        object-fit: cover;
-  }
-
 table {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 12px;
@@ -51,7 +33,7 @@ td {
   padding: 8px;
   background: #d0dafd;
   border-bottom: 1px solid #fff;
-  color: #0a0a0f;
+  color: #669;
   border-top: 1px solid transparent;
 }
 
@@ -99,7 +81,7 @@ tr:hover td {
 }
 
 .ventas{
-  background: linear-gradient(180deg, #3FBB44 0%, #35A039 49%, #319235 50%, #256D28 100%);
+  background-color: #379E3B;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -111,23 +93,10 @@ tr:hover td {
 }
 
 .ventas:hover{
-  background-position: 0 -52px;
+  background-color: #4CAF50;
   transition: all .3s
-}
-
-.opera{
-  float: right;
 }
 
 .volver{
-  background: linear-gradient(180deg, #E3E0DB 0%, #D1CFCB 49%, #B0B0B0 50%, #A1A0A0 100%);
-  width:85px;
-  height:30px;
   border-radius: 4px;
-  transition: all .3s
-}
-
-.volver:hover{
-  background-position: 0 -50px;
-  transition: all .3s
 }

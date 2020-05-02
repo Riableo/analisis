@@ -11,36 +11,45 @@ include("test.php");
 
     <!-- CSS -->
     <LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+
+    <style>
+      body { background-color: #58504A; }
+    </style>
 </head>
 <body>
     <div id="container" class="form">
+      <div class="box">
+        <img src="img/panes.jpg" alt="Cargando imagen...">
+      </div>
         <form method="POST" action="registra.php">
             <!-- Username -->
-            <br>
-              <label ><b>Nombre:</b></label>
-              <input type="text" class="sinbordefondo" name="name">
-            </br>
-            <!-- Lastname -->
-            <br>
-              <label ><b>Marca:</b></label>
-              <input type="text" class="sinbordefondo" name="marca">
-            </br>
-            <!-- User -->
-            <br>
-              <label ><b>Fecha Vencimiento:</b></label>
-              <input type="date" class="sinbordefondo" name="venc">
-            </br>
-            <!-- Password -->
-            <br>
-              <label ><b>Costo:</b></label>
-              <input type="number" class="sinbordefondo" name="costo">
-            </br>
-            <!-- CC -->
-            <br>
-              <label ><b>Cantidad:</b></label>
-              <input type="number" class="sinbordefondo" name="cant">
-            </br>
-            <br></br>
+            <div class="inputs">
+              <br>
+                <label ><b>Nombre:</b></label>
+                <input type="text" class="sinbordefondo" name="name">
+              </br>
+              <!-- Lastname -->
+              <br>
+                <label ><b>Marca:</b></label>
+                <input type="text" class="sinbordefondo" name="marca">
+              </br>
+              <!-- User -->
+              <br>
+                <label ><b>Fecha Vencimiento:</b></label>
+                <input type="date" class="sinbordefondo" name="venc">
+              </br>
+              <!-- Password -->
+              <br>
+                <label ><b>Costo:</b></label>
+                <input type="number" class="sinbordefondo" name="costo">
+              </br>
+              <!-- CC -->
+              <br>
+                <label ><b>Cantidad:</b></label>
+                <input type="number" class="sinbordefondo" name="cant">
+              </br>
+              <br></br>
+            </div>
             <div id="lower">
                 <!-- Submit Button -->
                 <center>

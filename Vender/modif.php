@@ -25,9 +25,15 @@ function Consultarprod($num){
 
     <!-- CSS -->
     <LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+      <style>
+        body { background-color: #58504A; }
+      </style>
   </head>
 <body>
   <div id="container" class="form">
+    <div class="box">
+      <img src="img/panes.jpg" alt="Cargando imagen...">
+    </div>
       <form method="POST" action="updat.php">
           <!-- Username -->
           <input type="hidden" name="nume" value="<?php echo $_GET['id']?> ">
@@ -59,7 +65,7 @@ function Consultarprod($num){
           <div id="lower">
               <!-- Submit Button -->
               <input type="submit" class="save" value="Guardar">
-              <a href="index.html">Volver</a>
+              <a href="index.php"><button type="button" class="volver">Volver</button></a>
           </div>
       </form>
   </div>

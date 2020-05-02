@@ -6,10 +6,13 @@ include("test.php");
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- Title Page -->
-    <title>Producto</title>
+    <title>Ventas</title>
 
     <!-- CSS -->
     <LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+    <style>
+      body { background-color: #58504A; }
+    </style>
 </head>
 <body>
   <table>
@@ -38,16 +41,12 @@ include("test.php");
     }
      ?>
   </table>
-  <div id="container" class="total">
-    <label ><b>Total:</b></label>
-    <input type="number" class="sinbordefondo" name="toa">
-     <!--value="<?php echo $consulta ?>"--->
-  </div>
   <?php
   $sql="Select Sum(costo*cantidad) from productos";
     $resulta=mysql_query($sql);
-    echo "Total: ".mysql_result($resulta, 0)."<br>";
+    echo "<b>Total:</b> <input type='number' class='sinbordefondo' value='".mysql_result($resulta, 0)."' readonly></div>";
     ?>
-  <a href="index.php">Volver</a>
+  <br></br>
+  <a href="index.php"><button type="button" class="volver">Volver</button></a>
 </body>
 </html>

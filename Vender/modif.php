@@ -5,8 +5,9 @@ $consulta=Consultarprod($_GET['id']);
 
 function Consultarprod($num){
   $sql="SELECT * FROM productos WHERE id='".$num."' ";
-    $result=mysql_query($sql);
-    $filas=mysql_fetch_array($result);
+  $conexion = mysqli_connect("localhost","root","","prueba");
+    $result=mysqli_query($conexion,$sql);
+    $filas=mysqli_fetch_assoc($result);
     return [
       $filas['Nombre'],
       $filas['marca'],
@@ -24,7 +25,7 @@ function Consultarprod($num){
     <title>Producto</title>
 
     <!-- CSS -->
-    <LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+    <LINK REL="stylesheet" TYPE="text/css" HREF="css/estilo.css">
       <style>
         body { background-color: #58504A; }
       </style>

@@ -1,6 +1,5 @@
 <?php
-$conexion = mysql_connect("localhost","root","");
-mysql_select_db("prueba",$conexion);
+$conexion = mysqli_connect("localhost","root","","prueba");
 if(!$conexion){
 echo 'Error al conectar';
 }else{

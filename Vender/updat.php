@@ -2,7 +2,7 @@
 	include 'test.php';
 $nombre=$_POST['name'];
 $marc=$_POST['marca'];
-$fecha=$_POST['venc']; 
+$fecha=$_POST['venc'];
 $cost=$_POST['costo'];
 $cant=$_POST['cant'];
 $num=$_POST['nume'];
@@ -11,7 +11,7 @@ $num=$_POST['nume'];
 		fecha_venc='".$fecha."', costo='".$cost."', Cantidad='".$cant."'
 		WHERE id='".$num."' ";
 
-	$resultado = mysql_query($sentencia);
+	$resultado = mysqli_query($conexion,$sentencia);
 
 	if(!$resultado){
 	  echo 'Error';
@@ -22,6 +22,6 @@ $num=$_POST['nume'];
 	// Confirmamos que el registro ha sido insertado con exito
 
 	echo 'Good';
-	mysql_close($conexion);
+	mysqli_close($conexion);
 	header('Location: index.php');
 	?>

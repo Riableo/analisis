@@ -10,7 +10,7 @@ include("test.php");
     <title>Producto</title>
 
     <!-- CSS -->
-    <LINK REL="stylesheet" TYPE="text/css" HREF="estilo.css">
+    <LINK REL="stylesheet" TYPE="text/css" HREF="css/estilo.css">
 
     <style>
       body { background-color: #58504A; }
@@ -59,37 +59,39 @@ include("test.php");
         </form>
     </div>
     <br>
-      <table>
-        <tr>
-          <th>id</th>
-          <th>Nombre</th>
-          <th>Marca</th>
-          <th>Fecha Vencimiento</th>
-          <th>Costo</th>
-          <th>Cantidad</th>
-        </tr>
-        <?php
-        $sql="Select *from productos";
-        $result=mysql_query($sql);
-        while($mostrar=mysql_fetch_array($result)){
-        ?>
-        <tr>
-          <td><?php echo $mostrar['id'] ?></td>
-          <td><?php echo $mostrar['Nombre'] ?></td>
-          <td><?php echo $mostrar['marca'] ?></td>
-          <td><?php echo $mostrar['fecha_venc'] ?></td>
-          <td><?php echo $mostrar['costo'] ?></td>
-          <td><?php echo $mostrar['cantidad'] ?></td>
+      <center>
+        <table>
+          <tr>
+            <th>id</th>
+            <th>Nombre</th>
+            <th>Marca</th>
+            <th>Fecha Vencimiento</th>
+            <th>Costo</th>
+            <th>Cantidad</th>
+          </tr>
           <?php
-          echo "<td><a href='modif.php?id=".$mostrar['id']."'><button type='button' class='modif'>Modificar</button></a></td>";
-          echo "<td><a href='delet.php?id=".$mostrar['id']."'><button type='button' class='delet'>Eliminar</button></a></td>";
+          $sql="Select *from productos";
+          $result=mysqli_query($conexion,$sql);
+          while($mostrar=mysqli_fetch_array($result,MYSQLI_ASSOC)){
           ?>
-        </tr>
-        <?php
-        }
-         ?>
-      </table>
-      <a href="Ventas.php"><button type="button" class="ventas">Ver ventas dia</button></a>
+          <tr>
+            <td><?php echo $mostrar['id'] ?></td>
+            <td><?php echo $mostrar['Nombre'] ?></td>
+            <td><?php echo $mostrar['marca'] ?></td>
+            <td><?php echo $mostrar['fecha_venc'] ?></td>
+            <td><?php echo $mostrar['costo'] ?></td>
+            <td><?php echo $mostrar['cantidad'] ?></td>
+            <?php
+            echo "<td><a href='modif.php?id=".$mostrar['id']."'><button type='button' class='modif'>Modificar</button></a></td>";
+            echo "<td><a href='delet.php?id=".$mostrar['id']."'><button type='button' class='delet'>Eliminar</button></a></td>";
+            ?>
+          </tr>
+          <?php
+          }
+           ?>
+        </table>
+      </center>
+      <a href="detalle.php"><button type="button" class="ventas">Ver ventas dia</button></a>
     </br>
 </body>
 </html>

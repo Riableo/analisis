@@ -2,6 +2,6 @@
 include ("test.php");
 $num=$_GET['id'];
 		$sentencia="DELETE FROM productos WHERE id='".$num."' ";
-		mysql_query($sentencia) or die (mysql_error());
+		mysqli_query($conexion,$sentencia) or die (mysqli_error());
 header('Location: index.php');
 ?>

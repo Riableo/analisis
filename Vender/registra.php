@@ -14,7 +14,7 @@ $Cantidad = $_POST["cant"];
 $sql="INSERT INTO productos (Nombre, marca, fecha_venc, costo, cantidad)
 VALUES ('$nombre','$brand','$fecha','$cost','$Cantidad')";
 
-$resultado = mysql_query($sql);
+$resultado = mysqli_query($conexion,$sql);
 
 if(!$resultado){
   echo 'Error';
@@ -24,6 +24,6 @@ if(!$resultado){
 // Confirmamos que el registro ha sido insertado con exito
 
 echo 'Good';
-mysql_close($conexion);
+mysqli_close($conexion);
 header('Location: index.php');
 ?>

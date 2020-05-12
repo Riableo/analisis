@@ -10,6 +10,30 @@
     border: 0;
   }
 
+  .box{
+    float: right;
+    width: 200px;
+    height: 200px;
+    background: #CCC;
+    overflow: hidden;
+  }
+
+  .box img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .box img{
+        height: 100%;
+        object-fit: cover;
+  }
+  .res{
+    width: auto;
+    height: auto;
+  }
+
+  
+
 table {
   font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   font-size: 12px;
@@ -81,7 +105,7 @@ tr:hover td {
 }
 
 .ventas{
-  background-color: #379E3B;
+  background: linear-gradient(180deg, #3FBB44 0%, #35A039 49%, #319235 50%, #256D28 100%);
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -93,10 +117,32 @@ tr:hover td {
 }
 
 .ventas:hover{
-  background-color: #4CAF50;
+  background-position: 0 -52px;
   transition: all .3s
 }
 
 .volver{
+  background: linear-gradient(180deg, #E3E0DB 0%, #D1CFCB 49%, #B0B0B0 50%, #A1A0A0 100%);
+  width:85px;
+  height:30px;
   border-radius: 4px;
+  transition: all .3s
+}
+
+.volver:hover{
+  background-position: 0 -50px;
+  transition: all .3s
+}
+
+.find{
+  background: linear-gradient(180deg, #A6DDFF 0%, #96D7FF 49%, #3586B7 50%, #2A7BAC 100%);
+  width:85px;
+  height:25px;
+  border-radius: 4px;
+  transition: all .4s;
+}
+
+.find:hover{
+  background-position: 0 -52px;
+  transition: all .4s;
 }

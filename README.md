@@ -6,6 +6,8 @@
 ![il_340x270 2272008589_pldo](https://user-images.githubusercontent.com/62998301/78147606-5e0a3680-73f9-11ea-992a-0a2d93860be4.jpg)
 - [**COVID-19**](ElVirusCorona)  
 Proyecto el cual nos dice el número de contagiados y los decesos a base de este virus por pais, podemos consultar el total de contagiados, total de muertes, consultar un pais o todos, agregar más paises, es desarrollado en Java y usa sus API collections  
+- [**Panaderia**](Vender) 🍞  
+Software para una panaderia el cual nos debe permite insertar, actualizar y eliminar datos, además de ver las ganancias por día
 ## Algorithms
 - [**Burbuja**](Ejercicios/burbuja.py)  
 En este archivo python realizamos los algoritmos más conocidos de ordenamiento algunos de ellos: Burbuja, Burbuja bidireccional, Seleccion, Insercion, Quicksort  
@@ -44,4 +46,5 @@ El código evalua la palabra ingresada es palindromo o no, palabra que de derech
 - [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  
 - [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)  
 - [**Sumarreglo**](Taller4/src/Sumar_arreglo/SumArreglo.java)  
-- [**Factorial**](Ejercicios/facto.py)
+- [**Factorial**](Ejercicios/facto.py)  
+

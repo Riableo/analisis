@@ -7,7 +7,9 @@
 - [**COVID-19**](ElVirusCorona)  
 Proyecto el cual nos dice el número de contagiados y los decesos a base de este virus por pais, podemos consultar el total de contagiados, total de muertes, consultar un pais o todos, agregar más paises, es desarrollado en Java y usa sus API collections  
 - [**Panaderia**](Vender) 🍞  
-Software para una panaderia el cual nos debe permite insertar, actualizar y eliminar datos, además de ver las ganancias por día
+Software para una panaderia el cual nos debe permite insertar, actualizar y eliminar datos, además de ver las ganancias por día  
+ [**Documentación pruebas unitarias**](Vender/tests/Pruebas%20unitarias%20Panaderia.pdf)  
+ [**Video pruebas unitarias**](https://youtu.be/bGwl2CjzVt4)
 ## Algorithms
 - [**Burbuja**](Ejercicios/burbuja.py)  
 En este archivo python realizamos los algoritmos más conocidos de ordenamiento algunos de ellos: Burbuja, Burbuja bidireccional, Seleccion, Insercion, Quicksort  

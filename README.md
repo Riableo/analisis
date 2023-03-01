@@ -46,7 +46,9 @@ El código evalua la palabra ingresada es palindromo o no, palabra que de derech
 - [**Poema**](Ejercicios/poem.py)  
 - [**Invertir_numero**](Taller4/src/Invertir_numero/NewClass.java)  
 - [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  
-- [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)  
+- [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)
+La serie de Fibonacci
 - [**Sumarreglo**](Taller4/src/Sumar_arreglo/SumArreglo.java)  
+Suma de un arreglo
 - [**Factorial**](Ejercicios/facto.py)  
 

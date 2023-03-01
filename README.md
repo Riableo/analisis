@@ -42,13 +42,19 @@ Dependiendo el número de jugadores se evaluará los puntos de cada categoría, 
 - [**Palindromo**](Ejercicios/palindromo.py)  
 El código evalua la palabra ingresada es palindromo o no, palabra que de derecha a izquierda se escribe igual  
 - [**Permutaciones**](Ejercicios/permuta.py)  
+Cuantas combinaciones de una palabra puede haber  
 - [**Cancion**](Ejercicios/song.py)  
+Leer archivo plano con una canción  
 - [**Poema**](Ejercicios/poem.py)  
+Leer un archivo plano con un poema 
 - [**Invertir_numero**](Taller4/src/Invertir_numero/NewClass.java)  
+Invierte un número en Java
 - [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  
-- [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)
-La serie de Fibonacci
+Número menor
+- [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)  
+La serie de Fibonacci en Java
 - [**Sumarreglo**](Taller4/src/Sumar_arreglo/SumArreglo.java)  
-Suma de un arreglo
+Suma de un arreglo en Java
 - [**Factorial**](Ejercicios/facto.py)  
+Fact
 

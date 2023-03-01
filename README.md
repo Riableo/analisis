@@ -44,9 +44,9 @@ El código evalua la palabra ingresada es palindromo o no, palabra que de derech
 - [**Permutaciones**](Ejercicios/permuta.py)  
 Cuantas combinaciones de una palabra puede haber  
 - [**Cancion**](Ejercicios/song.py)  
-Leer archivo plano con una canción  
+Leer archivo plano con una canción donde cuenta las vocales y crea un nuevo archivo plano sin vocales  
 - [**Poema**](Ejercicios/poem.py)  
-Leer un archivo plano con un poema 
+Leer un archivo plano con un poema devuelve la cantidad de vocales, espacios, consonantes, letras y un arreglo con la cantidad de veces que se repiten las frases
 - [**Invertir_numero**](Taller4/src/Invertir_numero/NewClass.java)  
 Invierte un número en Java
 - [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  

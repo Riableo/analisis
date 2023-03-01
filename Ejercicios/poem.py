@@ -2,7 +2,7 @@ voc='aeiouAEIOU'
 espaci=' '
 cons='bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'
 let='aeiouAEIOUbcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'
-f = open ('C:/Users/brian/Documents/Análisis/Poet.txt','r')
+f = open ('Poet.txt', encoding="utf8")
 mss = f.read()
 print(mss)
 def contar(var):

@@ -1,7 +1,7 @@
 # Analysis and design of algorithms 💻
 ## Brian Riaño 
 ## Ocupation 🎓
-- I'm student of systems engineer of **Universidad de San Buenaventura 6th semester**
+- I'm systems engineer **Universidad de San Buenaventura**
 ## Projects 📂
 ![il_340x270 2272008589_pldo](https://user-images.githubusercontent.com/62998301/78147606-5e0a3680-73f9-11ea-992a-0a2d93860be4.jpg)
 - [**COVID-19**](ElVirusCorona)  
@@ -42,11 +42,19 @@ Dependiendo el número de jugadores se evaluará los puntos de cada categoría, 
 - [**Palindromo**](Ejercicios/palindromo.py)  
 El código evalua la palabra ingresada es palindromo o no, palabra que de derecha a izquierda se escribe igual  
 - [**Permutaciones**](Ejercicios/permuta.py)  
+Cuantas combinaciones de una palabra puede haber  
 - [**Cancion**](Ejercicios/song.py)  
+Leer archivo plano con una canción donde cuenta las vocales y crea un nuevo archivo plano sin vocales  
 - [**Poema**](Ejercicios/poem.py)  
+Leer un archivo plano con un poema devuelve la cantidad de vocales, espacios, consonantes, letras y un arreglo con la cantidad de veces que se repiten las frases
 - [**Invertir_numero**](Taller4/src/Invertir_numero/NewClass.java)  
+Invierte un número en Java
 - [**Num_menor**](Taller4/src/Num_menor/Num_menor.java)  
+Número menor
 - [**Serie_fi**](Taller4/src/Serie_fi/Fibonacci.java)  
+La serie de Fibonacci en Java
 - [**Sumarreglo**](Taller4/src/Sumar_arreglo/SumArreglo.java)  
+Suma de un arreglo en Java
 - [**Factorial**](Ejercicios/facto.py)  
+Fact
 

@@ -6,12 +6,12 @@ def convertir(lista):
 
 voc='aeiouAEIOU'
 cons='bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'
-f = open ('C:/Users/brian/Documents/Análisis/Canc.txt','r')
+f = open ('Canc.txt','r', encoding="utf-8")
 mss = f.read()
 lista=len([m for m in mss if m in voc])
 print(mss)
 print("Cantidad de vocales: "+str(lista))
-sv= open ('C:/Users/brian/Documents/Análisis/Canc_sinvoc.txt','w')
+sv= open ('Canc_sinvoc.txt','w')
 lis=[m for m in mss if m in cons]
 print(convertir(lis))
 men=sv.write(convertir(lis))
